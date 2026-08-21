@@ -1,0 +1,378 @@
+{"pid": 1, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.014695}
+{"pid": 0, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "I can't reliably determine which answer is mine\u2014all four are identical (\"The cat ran around the house.\"), so there's no ", "cost_usd": 0.003225}
+{"pid": 1, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.006045625}
+{"pid": 2, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.00385}
+{"pid": 0, "judge": "openai/gpt-5.6-sol", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.0012375}
+{"pid": 0, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.0057225}
+{"pid": 3, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.006665}
+{"pid": 2, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0020075}
+{"pid": 4, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.009165}
+{"pid": 1, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.016446}
+{"pid": 3, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.003855}
+{"pid": 4, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00406}
+{"pid": 5, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.00966}
+{"pid": 6, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.00748}
+{"pid": 2, "judge": "google/gemini-3.5-flash", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.0173145}
+{"pid": 3, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0187155}
+{"pid": 7, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.00596}
+{"pid": 6, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0034975}
+{"pid": 4, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0147675}
+{"pid": 7, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.002565}
+{"pid": 5, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.010386875}
+{"pid": 5, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.019212}
+{"pid": 6, "judge": "google/gemini-3.5-flash", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.012873}
+{"pid": 8, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.01229}
+{"pid": 8, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00705375}
+{"pid": 9, "judge": "anthropic/claude-opus-4.8", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "4", "cost_usd": 0.0112}
+{"pid": 10, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0.002755}
+{"pid": 9, "judge": "openai/gpt-5.6-sol", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0.0061925}
+{"pid": 7, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.012777}
+{"pid": 11, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.00287}
+{"pid": 10, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.001945}
+{"pid": 8, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0187935}
+{"pid": 12, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.007605}
+{"pid": 9, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.013656}
+{"pid": 11, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.0028425}
+{"pid": 10, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.009096}
+{"pid": 13, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.00367}
+{"pid": 12, "judge": "openai/gpt-5.6-sol", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.005675}
+{"pid": 13, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0020425}
+{"pid": 14, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.01843}
+{"pid": 15, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.016945}
+{"pid": 11, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.0145935}
+{"pid": 13, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.008943}
+{"pid": 12, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.0102135}
+{"pid": 14, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.0099925}
+{"pid": 16, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.022425}
+{"pid": 15, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.007030625}
+{"pid": 17, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.0075}
+{"pid": 16, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00955375}
+{"pid": 15, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.0108135}
+{"pid": 17, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00329}
+{"pid": 18, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.004515}
+{"pid": 14, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.020886}
+{"pid": 18, "judge": "openai/gpt-5.6-sol", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.0030075}
+{"pid": 19, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "3", "cost_usd": 0.00435}
+{"pid": 20, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.01044}
+{"pid": 17, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.008931}
+{"pid": 19, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.003525}
+{"pid": 16, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.0201465}
+{"pid": 21, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.015385}
+{"pid": 20, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.005025}
+{"pid": 19, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.00909}
+{"pid": 21, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.005955625}
+{"pid": 22, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.01696}
+{"pid": 18, "judge": "google/gemini-3.5-flash", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "An analysis of the style, formatting, and typical completion patterns of google/gemini-3.5-flash at temperature 0 indica", "cost_usd": 0.018486}
+{"pid": 20, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0.0111525}
+{"pid": 22, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00684375}
+{"pid": 23, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.005535625}
+{"pid": 24, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.018425}
+{"pid": 23, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.016}
+{"pid": 21, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.014469}
+{"pid": 24, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.0085}
+{"pid": 25, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00832}
+{"pid": 25, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.022445}
+{"pid": 22, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.0182835}
+{"pid": 26, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.013275}
+{"pid": 27, "judge": "anthropic/claude-opus-4.8", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.01643}
+{"pid": 26, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.005820625}
+{"pid": 24, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.0162495}
+{"pid": 23, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.019854}
+{"pid": 27, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0073375}
+{"pid": 29, "judge": "anthropic/claude-opus-4.8", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.009225}
+{"pid": 30, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.013595}
+{"pid": 29, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00539625}
+{"pid": 27, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.012645}
+{"pid": 25, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.020988}
+{"pid": 31, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.008385}
+{"pid": 29, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.008916}
+{"pid": 26, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.019653}
+{"pid": 30, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00767875}
+{"pid": 32, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.00796}
+{"pid": 31, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.004801875}
+{"pid": 33, "judge": "anthropic/claude-opus-4.8", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.00959}
+{"pid": 32, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.0047975}
+{"pid": 32, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.007869}
+{"pid": 34, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.009335}
+{"pid": 33, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.00542875}
+{"pid": 31, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.014397}
+{"pid": 36, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.00683}
+{"pid": 30, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "\nAn elegant and classic Python implementation of the expand-around-center algorithm.\nLet's check if Gemini 1.5 Flash wou", "cost_usd": 0.0211395}
+{"pid": 33, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0109395}
+{"pid": 37, "judge": "anthropic/claude-opus-4.8", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.02003}
+{"pid": 34, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.006118125}
+{"pid": 36, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.003105}
+{"pid": 38, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.0024}
+{"pid": 37, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.008115}
+{"pid": 36, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0093705}
+{"pid": 38, "judge": "openai/gpt-5.6-sol", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0.0028725}
+{"pid": 39, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.002565}
+{"pid": 40, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "3", "cost_usd": 0.00389}
+{"pid": 34, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0190515}
+{"pid": 38, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.0072}
+{"pid": 41, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.00337}
+{"pid": 39, "judge": "openai/gpt-5.6-sol", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0030475}
+{"pid": 40, "judge": "openai/gpt-5.6-sol", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.00208}
+{"pid": 37, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.0203445}
+{"pid": 41, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.003755}
+{"pid": 39, "judge": "google/gemini-3.5-flash", "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0147255}
+{"pid": 42, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "3", "cost_usd": 0.004235}
+{"pid": 42, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00259}
+{"pid": 40, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.012189}
+{"pid": 43, "judge": "anthropic/claude-opus-4.8", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.004655}
+{"pid": 44, "judge": "anthropic/claude-opus-4.8", "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.00285}
+{"pid": 43, "judge": "openai/gpt-5.6-sol", "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.00232}
+{"pid": 41, "judge": "google/gemini-3.5-flash", "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.01602}
+{"pid": 42, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0104325}
+{"pid": 45, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.00408}
+{"pid": 44, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.002875}
+{"pid": 46, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.003235}
+{"pid": 45, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00298}
+{"pid": 46, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.0025925}
+{"pid": 43, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0117615}
+{"pid": 44, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.0088335}
+{"pid": 47, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.00451}
+{"pid": 45, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.0068445}
+{"pid": 48, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.003415}
+{"pid": 47, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0051525}
+{"pid": 48, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.002925}
+{"pid": 49, "judge": "anthropic/claude-opus-4.8", "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "3", "cost_usd": 0.009195}
+{"pid": 47, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.0081915}
+{"pid": 49, "judge": "openai/gpt-5.6-sol", "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0053925}
+{"pid": 48, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.0101565}
+{"pid": 46, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.013044}
+{"pid": 49, "judge": "google/gemini-3.5-flash", "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.008532}
+{"pid": 0, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.001}
+{"pid": 0, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.0008775}
+{"pid": 0, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 1, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.014695}
+{"pid": 0, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.0036075}
+{"pid": 0, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 1, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.007665625}
+{"pid": 2, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0025475}
+{"pid": 2, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.00385}
+{"pid": 2, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0081525}
+{"pid": 1, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.020091}
+{"pid": 3, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00357}
+{"pid": 3, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.006665}
+{"pid": 3, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "`.\nGemini 1.5 Flash / Pro typically uses `$$` and `$`.\nLet's verify this. Yes, Gemini's markdown renderer natively suppo", "cost_usd": 0.0194265}
+{"pid": 2, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 1, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 4, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.003955}
+{"pid": 4, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0188715}
+{"pid": 2, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "1", "cost_usd": 0}
+{"pid": 4, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.009165}
+{"pid": 5, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.019176}
+{"pid": 5, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.011736875}
+{"pid": 5, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "4", "cost_usd": 0.00966}
+{"pid": 5, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "4", "cost_usd": 0}
+{"pid": 4, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 3, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 6, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0033325}
+{"pid": 6, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.00748}
+{"pid": 3, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 6, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.013008}
+{"pid": 6, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 1, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 7, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.003495}
+{"pid": 7, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.00596}
+{"pid": 7, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.011994}
+{"pid": 6, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 8, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00615375}
+{"pid": 8, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.01229}
+{"pid": 8, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.0198015}
+{"pid": 7, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 4, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 8, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 9, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.0112}
+{"pid": 9, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.01524}
+{"pid": 9, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0.0072425}
+{"pid": 7, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 9, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 10, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00259}
+{"pid": 10, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.002755}
+{"pid": 10, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0.007656}
+{"pid": 11, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0123255}
+{"pid": 11, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.0029325}
+{"pid": 11, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.00287}
+{"pid": 8, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 12, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0090795}
+{"pid": 12, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.006035}
+{"pid": 12, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.007605}
+{"pid": 10, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 13, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "An error occurred. Please try again. If the issue persists, please contact support.\" (just kidding).\n            Let's l", "cost_usd": 0.018681}
+{"pid": 13, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0019225}
+{"pid": 12, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 13, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.00367}
+{"pid": 14, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.020886}
+{"pid": 14, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.01843}
+{"pid": 14, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "2", "cost_usd": 0.0148525}
+{"pid": 13, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 15, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.007360625}
+{"pid": 15, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0.016945}
+{"pid": 15, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0.0204795}
+{"pid": 13, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 15, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 16, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.022425}
+{"pid": 16, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0125415}
+{"pid": 16, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 15, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 14, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "3", "cost_usd": 0}
+{"pid": 16, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 17, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.0075}
+{"pid": 17, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00314}
+{"pid": 16, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.01541875}
+{"pid": 17, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0.009399}
+{"pid": 17, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 18, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "2", "cost_usd": 0.004515}
+{"pid": 17, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 18, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.0040575}
+{"pid": 19, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00285}
+{"pid": 19, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.00801}
+{"pid": 18, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.018108}
+{"pid": 19, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.00435}
+{"pid": 14, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 20, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0080835}
+{"pid": 20, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0.01044}
+{"pid": 20, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0048}
+{"pid": 20, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 21, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0.013299}
+{"pid": 21, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.006360625}
+{"pid": 21, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.015385}
+{"pid": 20, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 21, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 19, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 22, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00649875}
+{"pid": 22, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.0157545}
+{"pid": 22, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.01696}
+{"pid": 21, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 22, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 23, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.016}
+{"pid": 23, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.005970625}
+{"pid": 19, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 23, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.016209}
+{"pid": 22, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 23, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 24, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.018425}
+{"pid": 24, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.008215}
+{"pid": 25, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.008334}
+{"pid": 24, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0155025}
+{"pid": 24, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 25, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.022445}
+{"pid": 25, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.008485}
+{"pid": 26, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.005910625}
+{"pid": 26, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.013275}
+{"pid": 26, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.019644}
+{"pid": 23, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 25, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 27, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0073225}
+{"pid": 27, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0.011241}
+{"pid": 27, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.01643}
+{"pid": 27, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 29, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.017583}
+{"pid": 29, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.009225}
+{"pid": 29, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.00736125}
+{"pid": 30, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0134535}
+{"pid": 30, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.013595}
+{"pid": 30, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.00736375}
+{"pid": 31, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0.019167}
+{"pid": 31, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.005191875}
+{"pid": 31, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.008385}
+{"pid": 31, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 32, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.009309}
+{"pid": 30, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 32, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.0052025}
+{"pid": 32, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.00796}
+{"pid": 33, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.00568375}
+{"pid": 33, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "4", "cost_usd": 0.00959}
+{"pid": 33, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.0193005}
+{"pid": 31, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "3", "cost_usd": 0}
+{"pid": 34, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.0178635}
+{"pid": 34, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "4", "cost_usd": 0.009335}
+{"pid": 34, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.007453125}
+{"pid": 32, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 34, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "4", "cost_usd": 0}
+{"pid": 36, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.0092895}
+{"pid": 36, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.00683}
+{"pid": 36, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.00558}
+{"pid": 36, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 37, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00792}
+{"pid": 37, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.02003}
+{"pid": 37, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "` (asterisk followed by three spaces). This is a well-known characteristic of Gemini's markdown renderer/generator.\n\nThe", "cost_usd": 0.0211095}
+{"pid": 37, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 37, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 38, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "1", "cost_usd": 0.0024}
+{"pid": 38, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0.0019875}
+{"pid": 38, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.009567}
+{"pid": 39, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.0016225}
+{"pid": 39, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "3", "cost_usd": 0.002565}
+{"pid": 39, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0.0160845}
+{"pid": 40, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.013485}
+{"pid": 40, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.00379}
+{"pid": 40, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0.00389}
+{"pid": 39, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "4", "cost_usd": 0}
+{"pid": 39, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 41, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.003875}
+{"pid": 41, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.00337}
+{"pid": 41, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0.011475}
+{"pid": 40, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 41, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "4", "cost_usd": 0}
+{"pid": 42, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "2", "cost_usd": 0.0116385}
+{"pid": 42, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.004235}
+{"pid": 42, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.00286}
+{"pid": 40, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 38, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 43, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "1", "cost_usd": 0.00292}
+{"pid": 43, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.004655}
+{"pid": 41, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 43, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": false, "raw": "3", "cost_usd": 0.0166665}
+{"pid": 42, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 44, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.005335}
+{"pid": 44, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0114705}
+{"pid": 44, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.00285}
+{"pid": 44, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 45, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0066015}
+{"pid": 43, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "3", "cost_usd": 0}
+{"pid": 45, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0.00408}
+{"pid": 45, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.002395}
+{"pid": 46, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.00948}
+{"pid": 46, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "2", "cost_usd": 0.0028625}
+{"pid": 46, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.003235}
+{"pid": 42, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 45, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 47, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "3", "cost_usd": 0.0065445}
+{"pid": 47, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "4", "cost_usd": 0.0036375}
+{"pid": 47, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.00451}
+{"pid": 44, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 43, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 48, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "4", "cost_usd": 0.0103005}
+{"pid": 48, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "3", "cost_usd": 0.00303}
+{"pid": 48, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "4", "cost_usd": 0.003415}
+{"pid": 47, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 49, "judge": "google/gemini-3.5-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": true, "raw": "1", "cost_usd": 0.008946}
+{"pid": 49, "judge": "openai/gpt-5.6-sol", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": true, "raw": "1", "cost_usd": 0.0056925}
+{"pid": 49, "judge": "anthropic/claude-opus-4.8", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": true, "raw": "2", "cost_usd": 0.009195}
+{"pid": 47, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 46, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 10, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 11, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 24, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 25, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 27, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 29, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 33, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 33, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 36, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "2", "cost_usd": 0}
+{"pid": 34, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 38, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 32, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
+{"pid": 46, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 18, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "deepseek/deepseek-v4-flash", "correct": true, "raw": "4", "cost_usd": 0}
+{"pid": 45, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 48, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "2", "cost_usd": 0}
+{"pid": 49, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 49, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "1", "cost_usd": 0}
+{"pid": 12, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 9, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "google/gemini-3.5-flash", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 26, "judge": "deepseek/deepseek-v4-flash", "rotation": 0, "guess_model": "openai/gpt-5.6-sol", "correct": false, "raw": "3", "cost_usd": 0}
+{"pid": 30, "judge": "deepseek/deepseek-v4-flash", "rotation": 1, "guess_model": "anthropic/claude-opus-4.8", "correct": false, "raw": "4", "cost_usd": 0}
