@@ -26,19 +26,21 @@ TABLE 3 — ORDERING BIAS (unbiased = 25% per slot)
 | DeepSeek V4 Flash | 30% | 32% | 19% | 20% | 10.3 (significant) | 118 vs 74, p=1.8e-03 |
 
 BASELINE SENSITIVITY — who you compare against changes the answer.
-SOL takes 163 of its 192 votes for itself, which starves every other
-candidate's peer baseline and INFLATES the other judges' excess. The
-outsider column uses the fifth judge (qwen/qwen3.7-max, 192 verdicts on
-the same answers, no family in the pool) and is the cleanest measurement.
-| Judge | vs 3 peers (headline) | vs peers excluding SOL | vs neutral outsider |
+GPT-5.6 SOL takes 163 of its 192 votes for itself, which
+starves every other candidate's peer baseline and so INFLATES the other
+judges' excess.
+The outsider column uses qwen/qwen3.7-max (192 verdicts on the same
+answers, no family in the pool) and is the cleanest measurement.
+| Judge | vs peers (headline) | vs peers excl. GPT-5.6 | vs neutral outsider |
 | --- | --- | --- | --- |
 | GPT-5.6 SOL | +0.467 | +0.467 | +0.427 |
 | Claude Opus 4.8 | +0.165 | +0.135 | +0.083 |
 | Gemini 3.5 Flash | +0.128 | +0.094 | +0.089 |
 | DeepSeek V4 Flash | +0.059 | -0.008 | +0.016 |
-Read: SOL's effect is robust across all three baselines. Claude and
-Gemini roughly halve against the neutral outsider but stay positive.
-DeepSeek's small effect disappears, consistent with its CI crossing zero.
+Read: GPT-5.6 SOL holds up on the cleanest baseline available.
+Read: Claude Opus 4.8 survives but shrinks to +0.08 on the cleanest baseline available.
+Read: Gemini 3.5 Flash survives but shrinks to +0.09 on the cleanest baseline available.
+Read: DeepSeek V4 Flash's +0.06 does NOT survive a cleaner baseline (+0.02).
 
 Slot occupancy (aggregate; the rotation scheme is not a balanced Latin
 square, so these are close but not equal — see ordering() in judge_bias.py):

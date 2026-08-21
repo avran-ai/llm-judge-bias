@@ -28,6 +28,10 @@ BOOTSTRAP_DRAWS = 2000
 RNG_SEED = 20260821
 
 
+def S_SHORT(model):
+    return NICE.get(model, model).split()[0]
+
+
 def fam(model):
     return model.split("/")[0]
 
@@ -152,16 +156,36 @@ for judge in PANEL:
     print(f"| {NICE[judge]} | {cells} | {chi2:.1f} ({flag}) | "
           f"{first} vs {second}, p={two_sided_binomial(first, second):.1e} |")
 
-print("\nBASELINE SENSITIVITY — who you compare against changes the answer.")
-print("SOL takes 163 of its 192 votes for itself, which starves every other")
-print("candidate's peer baseline and INFLATES the other judges' excess. The")
-print("outsider column uses the fifth judge (qwen/qwen3.7-max, 192 verdicts on")
-print("the same answers, no family in the pool) and is the cleanest measurement.")
-print("| Judge | vs 3 peers (headline) | vs peers excluding SOL | vs neutral outsider |")
-print("| --- | --- | --- | --- |")
 OUTSIDER = "qwen/qwen3.7-max"
 ALL_VERDICTS = [v for v in dedup(load("verdicts.jsonl"),
                                  ("pid", "judge", "rotation"), "winner_model")]
+
+# The heaviest self-voter contaminates everyone else's baseline: the more it
+# votes for itself, the fewer votes it gives the others, which deflates their
+# comparison group and inflates their excess. Work out who that is from the
+# data rather than assuming it is the same model every time.
+self_votes = {j: (sum(1 for v in ALL_VERDICTS
+                      if v["judge"] == j and v["winner_model"] == j),
+                  sum(1 for v in ALL_VERDICTS if v["judge"] == j))
+              for j in PANEL}
+HEAVIEST = max(PANEL, key=lambda j: (self_votes[j][0] / self_votes[j][1])
+               if self_votes[j][1] else 0)
+h_hits, h_total = self_votes[HEAVIEST]
+outsider_n = sum(1 for v in ALL_VERDICTS if v["judge"] == OUTSIDER)
+
+print("\nBASELINE SENSITIVITY — who you compare against changes the answer.")
+print(f"{NICE[HEAVIEST]} takes {h_hits} of its {h_total} votes for itself, which")
+print("starves every other candidate's peer baseline and so INFLATES the other")
+print("judges' excess.")
+if outsider_n:
+    print(f"The outsider column uses {OUTSIDER} ({outsider_n} verdicts on the same")
+    print("answers, no family in the pool) and is the cleanest measurement.")
+else:
+    print(f"No verdicts from the neutral outsider ({OUTSIDER}) are present in this")
+    print("data, so that column reads n/a. Without it the peer column is all you")
+    print("have, and it is the contaminated one.")
+print(f"| Judge | vs peers (headline) | vs peers excl. {S_SHORT(HEAVIEST)} | vs neutral outsider |")
+print("| --- | --- | --- | --- |")
 
 
 def excess_vs(judge, baseline_judges):
@@ -174,16 +198,30 @@ def excess_vs(judge, baseline_judges):
     return own - rest
 
 
+baseline_rows = {}
 for judge in PANEL:
     peers = [p for p in PANEL if p != judge]
-    no_sol = [p for p in peers if p != "openai/gpt-5.6-sol"]
-    cells = [excess_vs(judge, peers), excess_vs(judge, no_sol),
+    no_heavy = [p for p in peers if p != HEAVIEST]
+    cells = [excess_vs(judge, peers), excess_vs(judge, no_heavy),
              excess_vs(judge, [OUTSIDER])]
+    baseline_rows[judge] = cells
     print(f"| {NICE[judge]} | " +
           " | ".join(f"{c:+.3f}" if c is not None else "n/a" for c in cells) + " |")
-print("Read: SOL's effect is robust across all three baselines. Claude and")
-print("Gemini roughly halve against the neutral outsider but stay positive.")
-print("DeepSeek's small effect disappears, consistent with its CI crossing zero.")
+
+# Narrate whatever the numbers actually say, not what they said the day this
+# was written.
+for judge in PANEL:
+    head, _, out = baseline_rows[judge]
+    if head is None:
+        continue
+    cleanest = out if out is not None else head
+    if head > 0.02 and cleanest > 0.02:
+        verb = ("holds up" if cleanest >= head * 0.75
+                else f"survives but shrinks to {cleanest:+.2f}")
+        print(f"Read: {NICE[judge]} {verb} on the cleanest baseline available.")
+    elif head > 0.02:
+        print(f"Read: {NICE[judge]}'s +{head:.2f} does NOT survive a cleaner "
+              f"baseline ({cleanest:+.2f}).")
 
 print("\nSlot occupancy (aggregate; the rotation scheme is not a balanced Latin\n"
       "square, so these are close but not equal — see ordering() in judge_bias.py):")
