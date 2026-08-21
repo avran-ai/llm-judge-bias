@@ -67,4 +67,4 @@ so read these as directional.
 | _DeepSeek V4 Flash: 6 prompt(s) excluded, only one probe survived_ | | | | |
 | DeepSeek V4 Flash | 17% | +0.06 | +0.67 (n=1) | +0.01 (n=30) |
 
-Total API spend recorded in the data files: $8.74
+Total API spend recorded in the data files: $8.64

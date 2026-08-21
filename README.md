@@ -144,23 +144,37 @@ covers all four families.
 
 ## The prompts
 
-Fifty prompts: 13 everyday questions, 13 writing tasks, 12 reasoning problems,
-and 12 verifiable maths and code questions whose answer keys were computed
-locally rather than written by hand. The `source` field records where each one
-came from: 20 are derived from WildChat, 18 from Alpaca, and 12 are synthetic.
+Forty-eight prompts: 13 everyday questions, 13 writing tasks, 10 reasoning
+problems, and 12 verifiable maths and code questions whose answer keys were
+computed locally rather than written by hand. The `source` field records where
+each came from: 18 are derived from WildChat, 18 from Alpaca, and 12 are
+synthetic.
 
-Forty-eight ended up with a complete set of four answers; DeepSeek returned
-empty content on `p28` and `p35`, and those prompts are skipped by every later
-phase. **If you rerun `gen`, it will retry those two**, and if they succeed
-your run will judge 50 prompts rather than 48 and your numbers will not match
-the ones published here. Delete them from `prompts.jsonl` first if you want an
-exact reproduction.
+The original set was 50. DeepSeek returned empty content on two reasoning
+prompts, so they never got a complete set of four answers and were never
+judged. Both they and their six orphaned answers have been removed, so what
+ships is exactly what was measured: 48 prompts, 192 answers, 768 verdicts.
+Prompt ids keep their original numbering and therefore skip 28 and 35, because
+the verdict and recognition files reference prompts by id and renumbering
+would silently rewire the dataset.
 
-**Known-bad items, left in the data for transparency:** `p0` produced four
-identical answers so nothing could be judged, `p38` produced two identical
-ones, `p25` contains an "ignore previous instructions" string, and one answer
-to `p26` mentions a rival model by name. Excluding all four moves every excess
-figure by at most 0.024, so the headline results do not depend on them.
+**Known-bad items, left in for transparency:** `p0` produced four identical
+answers so nothing could be judged, `p38` produced two identical ones, `p25`
+contains an "ignore previous instructions" string, and one answer to `p26`
+mentions a rival model by name. Excluding all four moves every excess figure
+by at most 0.024, so the headline results do not depend on them.
+
+## Rerunning it
+
+`gen` and `judge` are complete: run them and they will issue zero calls. Two
+phases are not, and both would change published numbers if you top them up:
+
+- `recog` will retry 6 DeepSeek probes that its provider failed with empty
+  responses. DeepSeek's recognition rate is 15/90; if those land it becomes a
+  fraction of 96 and the reported 17% shifts.
+- `explain` is a qualitative sampler rather than a measured phase, and ships
+  partial coverage (13 rows). It will top up to 24 by default. Nothing in the
+  three result tables depends on it.
 
 ## Repository layout
 
