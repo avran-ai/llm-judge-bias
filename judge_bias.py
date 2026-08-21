@@ -158,8 +158,16 @@ def answers_by_key():
 
 
 def ordering(models, base, rot):
-    """rot 0 is a cyclic shift, rot 1 reverses it, later rots shift further.
-    Across the four rotations each answer occupies varied slots."""
+    """rot 0 is a cyclic shift by `base`, rot 1 reverses that, rot 2 and 3
+    shift by base+1 and base+2.
+
+    Known limitation, kept as-is because it is what produced the shipped data:
+    this is NOT a balanced Latin square. The shift by base+3 is never used, so
+    within a single prompt-judge cell two of the four answers do not visit all
+    four slots. In aggregate each answer still lands in each slot 184-200 times
+    out of 768, and standardising by slot moves every reported excess by at
+    most 0.006. A cleaner design would use shifts 0..3 and drop the reversal.
+    """
     n = len(models)
     if rot == 0:
         return [models[(i + base) % n] for i in range(n)]

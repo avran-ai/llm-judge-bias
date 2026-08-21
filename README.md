@@ -35,19 +35,32 @@ shown in a different order.
 | Claude Opus 4.8 | 39/96 | 41% |
 | DeepSeek V4 Flash | 15/90 | 17% |
 
-**The two results line up.** For SOL and Claude, the bias is concentrated on
-the prompts where the judge identified its own answer (SOL +0.50 against +0.08
-when it failed to; Claude +0.44 against +0.03). DeepSeek is the natural
-control: it is the only judge that cannot find its own writing, scoring below
-chance, and the only judge with no measurable self-preference. Gemini is the
-exception, its split runs the other way, so its smaller bias is probably not
-recognition-driven.
+**The two results line up, though the split is thin.** For SOL and Claude the
+bias concentrates on the prompts where the judge identified its own answer:
+SOL +0.50 (n=39) against +0.08 (n=6) when it failed to, Claude +0.44 (n=13)
+against +0.03 (n=22). Note SOL's miss set is only six prompts and its
+clustered CI there is [-0.06, +0.22], so that half of the contrast is
+directional at best. Two of those six are known-bad items (`p0`, `p38`) where
+recognition is impossible by construction. DeepSeek's own split is reported at
+n=1 and should be ignored entirely.
 
-**Ordering matters more than expected.** Gemini and DeepSeek both favour
-answers shown early. Worse, show the same judge the same four answers in four
-different orders and the winner often changes: Gemini gave the same answer all
-four times on 18 of 48 prompts, DeepSeek 15, Claude 14. SOL manages 40 of 48
-only because it votes for itself wherever its answer sits.
+DeepSeek is better read as a natural control: it is the only judge that cannot
+find its own writing, scoring below chance, and the only judge with no
+measurable self-preference. Gemini is the exception, its split runs the other
+way, so its smaller bias is probably not recognition-driven.
+
+**Ordering matters more than expected.** DeepSeek clearly favours answers
+shown early (first half 118 against 74, p=0.0018). Gemini's effect is
+narrower: it over-picks slot 1 specifically, but its first-half split is 105
+against 87, which is not significant. Claude leans the other way and does
+significantly favour late slots (80 against 112, p=0.025) even though its
+four-slot chi-squared does not reach significance. So three of the four judges
+show some position effect, in two different directions.
+
+Worse, show the same judge the same four answers in four different orders and
+the winner often changes: Gemini gave the same answer all four times on 18 of
+48 prompts, DeepSeek 15, Claude 14. SOL manages 40 of 48 only because it votes
+for itself wherever its answer sits.
 
 Full numbers, including the significance tests, are in
 [results/RESULTS.md](results/RESULTS.md), and `analysis.py` regenerates all of
@@ -90,7 +103,17 @@ covers all four families.
   guarantee, since providers are not perfectly deterministic. The cached data
   files, not the API, are the reproducible object here.
 - **Bootstrap resamples whole prompts**, because four verdicts on one prompt
-  are not independent observations.
+  are not independent observations. The chi-squared and binomial tests in the
+  ordering section do NOT apply that correction and treat 192 correlated
+  verdicts as independent. Re-running both prompt-clustered leaves every
+  conclusion standing, so no reported number changes, but the p-values are
+  more confident than they have strictly earned.
+- **The rotation scheme is not a balanced Latin square.** Within one
+  prompt-judge cell, two of the four answers do not visit all four slots.
+  Aggregate occupancy is close (184 to 200 out of 768) and standardising by
+  slot moves every excess by at most 0.006, but a cleaner rerun should use
+  cyclic shifts 0 through 3 rather than three shifts plus a reversal. See
+  `ordering()` in `judge_bias.py`.
 
 ## The prompts
 

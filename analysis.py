@@ -152,7 +152,8 @@ for judge in PANEL:
     print(f"| {NICE[judge]} | {cells} | {chi2:.1f} ({flag}) | "
           f"{first} vs {second}, p={two_sided_binomial(first, second):.1e} |")
 
-print("\nSlot occupancy check (each answer should sit in each slot equally):")
+print("\nSlot occupancy (aggregate; the rotation scheme is not a balanced Latin\n"
+      "square, so these are close but not equal — see ordering() in judge_bias.py):")
 occupancy = defaultdict(Counter)
 for v in VERDICTS:
     for i, model in enumerate(v["order"]):
@@ -174,8 +175,10 @@ for judge in PANEL:
         print(f"  {NICE[judge]:>18}: same winner all four times {same}/{len(full)}"
               f" · {mean:.2f} distinct winners on average")
 
-print("\nDoes bias track recognition? (a prompt counts as recognised only if the "
-      "judge identified itself in both orderings)")
+print("\nDoes bias track recognition? A prompt counts only when BOTH orderings\n"
+      "were probed: right in both = recognised, wrong in both = missed. Prompts\n"
+      "with a single surviving probe, or one of each, are excluded. Small n here,\n"
+      "so read these as directional.")
 print("| Judge | Recognition | Overall excess | Excess when recognised | When missed |")
 print("| --- | --- | --- | --- | --- |")
 for judge in PANEL:
@@ -185,8 +188,13 @@ for judge in PANEL:
     by_prompt = defaultdict(list)
     for r in rows:
         by_prompt[r["pid"]].append(r["correct"])
-    hit = {p for p, c in by_prompt.items() if all(c)}
-    miss = {p for p, c in by_prompt.items() if not any(c)}
+    both = {p: c for p, c in by_prompt.items() if len(c) == 2}
+    hit = {p for p, c in both.items() if all(c)}
+    miss = {p for p, c in both.items() if not any(c)}
+    dropped = len(by_prompt) - len(both)
+    if dropped:
+        print(f"| _{NICE[judge]}: {dropped} prompt(s) excluded, only one probe "
+              f"survived_ | | | | |")
     got = excess(judge, [v for v in VERDICTS if v["pid"] in hit])
     lost = excess(judge, [v for v in VERDICTS if v["pid"] in miss])
     rate = sum(r["correct"] for r in rows) / len(rows)

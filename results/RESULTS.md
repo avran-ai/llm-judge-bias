@@ -25,7 +25,8 @@ TABLE 3 — ORDERING BIAS (unbiased = 25% per slot)
 | Gemini 3.5 Flash | 35% | 20% | 23% | 22% | 10.5 (significant) | 105 vs 87, p=2.2e-01 |
 | DeepSeek V4 Flash | 30% | 32% | 19% | 20% | 10.3 (significant) | 118 vs 74, p=1.8e-03 |
 
-Slot occupancy check (each answer should sit in each slot equally):
+Slot occupancy (aggregate; the rotation scheme is not a balanced Latin
+square, so these are close but not equal — see ordering() in judge_bias.py):
          GPT-5.6 SOL: slot1=192 slot2=200 slot3=192 slot4=184
      Claude Opus 4.8: slot1=192 slot2=184 slot3=192 slot4=200
     Gemini 3.5 Flash: slot1=192 slot2=200 slot3=192 slot4=184
@@ -37,12 +38,16 @@ Verdict stability across the four orderings of identical answers:
     Gemini 3.5 Flash: same winner all four times 18/48 · 1.79 distinct winners on average
    DeepSeek V4 Flash: same winner all four times 15/48 · 1.88 distinct winners on average
 
-Does bias track recognition? (a prompt counts as recognised only if the judge identified itself in both orderings)
+Does bias track recognition? A prompt counts only when BOTH orderings
+were probed: right in both = recognised, wrong in both = missed. Prompts
+with a single surviving probe, or one of each, are excluded. Small n here,
+so read these as directional.
 | Judge | Recognition | Overall excess | Excess when recognised | When missed |
 | --- | --- | --- | --- | --- |
 | GPT-5.6 SOL | 84% | +0.47 | +0.50 (n=39) | +0.08 (n=6) |
 | Claude Opus 4.8 | 41% | +0.16 | +0.44 (n=13) | +0.03 (n=22) |
 | Gemini 3.5 Flash | 51% | +0.13 | +0.07 (n=18) | +0.23 (n=17) |
-| DeepSeek V4 Flash | 17% | +0.06 | +0.31 (n=3) | +0.02 (n=34) |
+| _DeepSeek V4 Flash: 6 prompt(s) excluded, only one probe survived_ | | | | |
+| DeepSeek V4 Flash | 17% | +0.06 | +0.67 (n=1) | +0.01 (n=30) |
 
 Total API spend recorded in the data files: $8.74
