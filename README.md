@@ -214,5 +214,14 @@ literature:
 
 ## License
 
-MIT for the code. The prompt set is derived from third-party datasets; check
-their terms before redistributing.
+**Code** (`judge_bias.py`, `analysis.py`): MIT, see [LICENSE](LICENSE).
+
+**Data** (`prompts.jsonl` and everything under `data/`): **non-commercial,
+research use only**, and separately licensed. 18 prompts derive from
+[WildChat-1M](https://huggingface.co/datasets/allenai/WildChat-1M) under
+ODC-BY, 18 from [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca)
+under CC BY-NC 4.0, and 12 are original. The Alpaca licence is the binding
+constraint: it forbids commercial use. Full attribution, the list of
+modifications, and a warning about the model-generated text are in
+[DATA_LICENSE.md](DATA_LICENSE.md). Carry that notice if you redistribute any
+part of the data.
