@@ -41,6 +41,12 @@ MODELS = [
 ]
 JUDGES = MODELS
 
+# A neutral judge with no answer in the pool. Its 192 verdicts on these same
+# answers ship in data/verdicts.jsonl and analysis.py uses them for the
+# baseline-sensitivity table. It is NOT in JUDGES because the headline panel is
+# the four candidates; add it here to regenerate or extend that data.
+OUTSIDE_JUDGE = ("qwen/qwen3.7-max", {"reasoning": {"enabled": False}})
+
 ROTATIONS = 4        # answer orderings per judge per prompt
 RECOG_ROTATIONS = 2  # orderings for the self-recognition probe
 

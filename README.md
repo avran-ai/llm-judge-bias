@@ -12,10 +12,15 @@ waiting on the slower models.
 
 ## What was found
 
-**Three of the four judges favour their own family's answers.** The excess is
-the judge's own-family vote rate minus the rate the *other* judges give the
-same answers, so a family that genuinely wrote better answers does not count
-as bias. Intervals are 95% bootstrap CIs resampled over prompts.
+**One judge favours its own answers enormously, two do so mildly, one not at
+all.** The excess is the judge's own-family vote rate minus the rate the
+*other* judges give the same answers, so a family that genuinely wrote better
+answers does not count as bias. Intervals are 95% bootstrap CIs resampled over
+prompts.
+
+Read the Method notes before quoting the two middle rows: this peer baseline
+is contaminated by SOL's self-voting, and against a neutral judge Claude and
+Gemini roughly halve.
 
 | Judge | Votes own family | Other judges vote that family | Excess |
 | --- | --- | --- | --- |
@@ -69,8 +74,8 @@ it from the raw data at no cost.
 ## Running it
 
 ```sh
-cp .env.example .env          # then put your key in it
-export OPENROUTER_API_KEY=... # or source the file
+cp .env.example .env                 # then put your key in it
+set -a; source .env; set +a          # .env has no `export`, so -a is needed
 
 python judge_bias.py gen      # 4 candidates answer 50 prompts
 python judge_bias.py judge    # 4 judges x 48 prompts x 4 answer orderings
@@ -80,7 +85,7 @@ python analysis.py            # the tables above, no network, no cost
 ```
 
 Every phase is checkpointed to `data/*.jsonl` and is resumable: rerun the same
-command and it only issues the calls still missing. A failed call is logged and
+command and it only issues the calls still missing. A failed call is printed to stdout and
 skipped rather than killing the run, which matters because one provider in this
 set returns empty responses fairly often. Spending is capped per process with
 `--max-spend` (default $15).
@@ -91,10 +96,32 @@ covers all four families.
 ## Method notes
 
 - **Candidates and judges are the same four models**, so every judge has one of
-  its own answers in every line-up. There is no neutral outsider on the panel;
-  each judge's comparison group is the other three, who are biased toward their
-  own families rather than the judge's, which if anything makes each excess
-  estimate conservative.
+  its own answers in every line-up. There is no neutral outsider *on the panel*;
+  each judge's comparison group is the other three.
+
+  **This baseline is contaminated, and not in the safe direction.** An earlier
+  draft of this README claimed the peer baseline made each excess
+  "conservative". That is backwards. SOL takes 163 of its 192 votes for itself,
+  so it almost never votes for anyone else's answers, which starves the peer
+  baseline for the other three judges and *inflates* their excess. Measured
+  against a genuinely neutral judge instead, the numbers shrink:
+
+  | Judge | vs 3 peers (headline) | vs peers excluding SOL | vs neutral outsider |
+  | --- | --- | --- | --- |
+  | GPT-5.6 SOL | +0.467 | +0.467 | +0.427 |
+  | Claude Opus 4.8 | +0.165 | +0.135 | +0.083 |
+  | Gemini 3.5 Flash | +0.128 | +0.094 | +0.089 |
+  | DeepSeek V4 Flash | +0.059 | -0.008 | +0.016 |
+
+  SOL's effect is robust on every baseline. Claude and Gemini roughly halve
+  against the outsider but stay positive. DeepSeek's already-insignificant
+  effect disappears. `analysis.py` prints this table on every run.
+
+  The neutral judge is **qwen/qwen3.7-max**, whose 192 verdicts on these exact
+  answers ship in `data/verdicts.jsonl`. It was used in an earlier version of
+  the experiment and dropped from the panel; the headline table keeps the
+  four-way panel for comparability, but the outsider column above is the
+  cleaner measurement and you should weight it accordingly.
 - **Answers are anonymised and order-rotated.** Nothing in a judging prompt
   names a model, a provider, or who else is judging.
 - **Temperature 0 throughout**, which is likely the worst case for
@@ -123,7 +150,11 @@ locally rather than written by hand. The `source` field records where each one
 came from: 20 are derived from WildChat, 18 from Alpaca, and 12 are synthetic.
 
 Forty-eight ended up with a complete set of four answers; DeepSeek returned
-empty content on two, and those prompts are skipped by every later phase.
+empty content on `p28` and `p35`, and those prompts are skipped by every later
+phase. **If you rerun `gen`, it will retry those two**, and if they succeed
+your run will judge 50 prompts rather than 48 and your numbers will not match
+the ones published here. Delete them from `prompts.jsonl` first if you want an
+exact reproduction.
 
 **Known-bad items, left in the data for transparency:** `p0` produced four
 identical answers so nothing could be judged, `p38` produced two identical

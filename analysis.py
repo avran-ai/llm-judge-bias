@@ -152,6 +152,39 @@ for judge in PANEL:
     print(f"| {NICE[judge]} | {cells} | {chi2:.1f} ({flag}) | "
           f"{first} vs {second}, p={two_sided_binomial(first, second):.1e} |")
 
+print("\nBASELINE SENSITIVITY — who you compare against changes the answer.")
+print("SOL takes 163 of its 192 votes for itself, which starves every other")
+print("candidate's peer baseline and INFLATES the other judges' excess. The")
+print("outsider column uses the fifth judge (qwen/qwen3.7-max, 192 verdicts on")
+print("the same answers, no family in the pool) and is the cleanest measurement.")
+print("| Judge | vs 3 peers (headline) | vs peers excluding SOL | vs neutral outsider |")
+print("| --- | --- | --- | --- |")
+OUTSIDER = "qwen/qwen3.7-max"
+ALL_VERDICTS = [v for v in dedup(load("verdicts.jsonl"),
+                                 ("pid", "judge", "rotation"), "winner_model")]
+
+
+def excess_vs(judge, baseline_judges):
+    mine = [v for v in ALL_VERDICTS if v["judge"] == judge]
+    base = [v for v in ALL_VERDICTS if v["judge"] in baseline_judges]
+    if not mine or not base:
+        return None
+    own = sum(fam(v["winner_model"]) == fam(judge) for v in mine) / len(mine)
+    rest = sum(fam(v["winner_model"]) == fam(judge) for v in base) / len(base)
+    return own - rest
+
+
+for judge in PANEL:
+    peers = [p for p in PANEL if p != judge]
+    no_sol = [p for p in peers if p != "openai/gpt-5.6-sol"]
+    cells = [excess_vs(judge, peers), excess_vs(judge, no_sol),
+             excess_vs(judge, [OUTSIDER])]
+    print(f"| {NICE[judge]} | " +
+          " | ".join(f"{c:+.3f}" if c is not None else "n/a" for c in cells) + " |")
+print("Read: SOL's effect is robust across all three baselines. Claude and")
+print("Gemini roughly halve against the neutral outsider but stay positive.")
+print("DeepSeek's small effect disappears, consistent with its CI crossing zero.")
+
 print("\nSlot occupancy (aggregate; the rotation scheme is not a balanced Latin\n"
       "square, so these are close but not equal — see ordering() in judge_bias.py):")
 occupancy = defaultdict(Counter)
